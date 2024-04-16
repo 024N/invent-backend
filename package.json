@@ -1,0 +1,33 @@
+{
+  "name": "invent-backend",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "gts": "^5.3.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "node ./build/app/server.js",
+    "test": "jest",
+    "dev": "nodemon ./app/server.ts",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "build": "tsc",
+    "fix": "gts fix"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "joi": "^17.12.3",
+    "nodemon": "^3.1.0",
+    "winston": "^3.13.0"
+  }
+}

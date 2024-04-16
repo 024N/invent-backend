@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1713290134000",
+        "available": true,
+        "name": "The Lord of the Rings",
+        "rate": 8.5
+    },
+    {
+        "id": "1713290147000",
+        "available": true,
+        "name": "To Kill a Mockingbird",
+        "rate": 7.5
+    },
+    {
+        "id": "1713290159000",
+        "available": false,
+        "name": "The Great Gatsby",
+        "rate": 8
+    }
+]
